@@ -10,7 +10,7 @@ function draw() {
   background(0);
 clock();
     line(0, a, width, a);
-  a = a - -.2;
+  a = a - .08;
   if (a < 0) 
     a = height;
 }
